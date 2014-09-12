@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TabletLayout">
+    	<attr name="colPadding" format="dimension"/>
+    	<attr name="rowPadding" format="dimension"/>
+    	
+    	<attr name="colums" format="integer"/>
+    	
+    	<attr name="col" format="integer"/>
+    	<attr name="row" format="integer"/>
+    	
+    </declare-styleable>
+</resources>
