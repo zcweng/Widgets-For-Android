@@ -5,3 +5,9 @@ Widgets-For-Android
 
 <b>FlowLayout流动布局</b>
 布局内的控件依次排列，超出布局宽度时自动换行
+<img href="https://github.com/zcweng/Widgets-For-Android/blob/master/Widgets-For-Android/flow.png"/>
+
+
+<b>FallLayout瀑布布局</b>
+布局内的控件分列排列，每列依次排列
+<img href="https://github.com/zcweng/Widgets-For-Android/blob/master/Widgets-For-Android/fall.png"/>
