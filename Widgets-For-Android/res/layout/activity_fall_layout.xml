@@ -1,0 +1,66 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.zcw.widgets_for_android.MainActivity" >
+
+        <com.zcw.widgets.FallLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fall_columPadding="5dp"
+            app:fall_colums="2"
+            app:fall_rowPadding="5dp" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#6a8"
+                android:gravity="center"
+                android:text="Widget 1 Block Area"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:background="#a68"
+                android:gravity="center"
+                android:text="Widget 2 Block Area"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:background="#68a"
+                android:gravity="center"
+                android:text="Widget 3 Block Area"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#86a"
+                android:gravity="center"
+                android:text="Widget 4 Block Area"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="#91f"
+                android:gravity="center"
+                android:text="Widget 5 Block Area"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </com.zcw.widgets.FallLayout>
+    </LinearLayout>
+
+</ScrollView>
